@@ -20,7 +20,7 @@ show_message "green" "=== Instalando Tema F.E.Fates para Qtile ==="
 
 # Crear backup de la configuración existente
 BACKUP_DATE=$(date +"%Y%m%d%H%M%S")
-QTILE_CONFIG_DIR="$HOME/.config/qtile"
+QTILE_CONFIG_DIR="$HOME/.config"
 
 if [ -d "$QTILE_CONFIG_DIR" ]; then
     show_message "green" "Creando un backup de la configuración existente de Qtile..."
