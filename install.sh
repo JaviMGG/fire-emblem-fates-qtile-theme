@@ -20,7 +20,7 @@ show_message "green" "=== Instalando Tema F.E.Fates para Qtile ==="
 
 # Crear backup de la configuración existente
 BACKUP_DATE=$(date +"%Y%m%d%H%M%S")
-QTILE_CONFIG_DIR="$HOME/.config"
+QTILE_CONFIG_DIR="$HOME/.config" #CAMBIADO
 
 if [ -d "$QTILE_CONFIG_DIR" ]; then
     show_message "green" "Creando un backup de la configuración existente de Qtile..."
@@ -48,11 +48,18 @@ fi
 
 # Copiar archivos de configuración
 show_message "yellow" "Copiando archivos de configuración del tema Fates..."
+
+# Copia todos los archivos de ./config al directorio de configuración
 if cp -r ./config/* "$QTILE_CONFIG_DIR/"; then
     show_message "green" "✓ Archivos de configuración copiados correctamente"
 else
     show_message "red" "✗ Error al copiar los archivos de configuración"
     exit 1
+fi
+
+# Copia picom.conf si existe en ./config y no se copió correctamente
+if [ -f ./config/picom.conf ]; then
+    cp ./config/picom.conf "$QTILE_CONFIG_DIR/picom.conf"
 fi
 
 # Asegura que picom.conf tenga los permisos correctos e informa sobre las optimizaciones
