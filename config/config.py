@@ -66,15 +66,15 @@ keys = [
 
 # Espacios de trabajo (Grupos)
 groups = [
-    Group("1", label="⚔️"),  # Armas
-    Group("2", label="🛡️"),  # Escudo
-    Group("3", label="🧪"),  # Pociones
-    Group("4", label="📜"),  # Mapas
-    Group("5", label="💎"),  # Tesoros
-    Group("6", label="🏰"),  # Mazmorras
-    Group("7", label="🧝"),  # Personajes
-    Group("8", label="🎵"),  # Música
-    Group("9", label="🔮"),  # Magia
+    Group("1", "1"),
+    Group("2", "2"),
+    Group("3", "3"),
+    Group("4", "4"),
+    Group("5", "5"),
+    Group("6", "6"),
+    Group("7", "7"),
+    Group("8", "8"),
+    Group("9", "9"),
 ]
 
 # Añadir atajos para los grupos
@@ -93,8 +93,8 @@ for i in groups:
 layout_theme = {
     "border_width": 2,                              # Ancho del borde de las ventanas
     "margin": 6,                                    # Margen entre las ventanas
-    "border_focus": colors["Dragon azul"],          # Azul del Dragón para el borde enfocado
-    "border_normal": colors["Plateado de Corrin"],  # Plateado de Corrin para el borde normal
+    "border_focus": colors["Plateado de Corrin"],          # Azul del Dragón para el borde enfocado
+    "border_normal": colors["Dragon azul"],  # Plateado de Corrin para el borde normal
     "border_radius": 16,                            # Bordes redondeados como se pidió
 }
 
@@ -130,7 +130,7 @@ screens = [
                 ),
                 widget.GroupBox(
                     active=colors["Escarlata de Hoshido"],
-                    inactive=colors["Dragon azul"],
+                    inactive=colors["Cyan de Takumi"],
                     highlight_method="line",
                     highlight_color=[colors["Índigo de Nohr"], colors["Azur de Azura"]],
                     this_current_screen_border=colors["Cyan de Takumi"],
@@ -142,9 +142,10 @@ screens = [
                 widget.Prompt(                                  # Área para ingresar comandos
                     foreground=colors["Escarlata de Hoshido"],   # Color del texto
                     background=widget_bg,                       # Fondo del widget
+
                 ),
                 widget.WindowName(                              # Nombre de la ventana actual
-                    foreground=colors["Plateado de Corrin"],     # Color del texto
+                    foreground=colors["Índigo de Nohr"],     # Color del texto
                     background=bar_bg,                          # Fondo de la barra (no del widget)
                 ),
                 widget.Chord(                                   # Muestra atajos de teclado personalizados (modos "chord")
@@ -171,12 +172,12 @@ screens = [
                     padding=5,                                  # Espacio interno
                 ),
             ],
-            24,                          # Altura de la barra
-            opacity=0.95,                # Barra más opaca
+            25,                          # Altura de la barra
+            opacity=1,                # Barra más opaca
             background=bar_bg,           # Fondo con opacidad para la barra
-            margin=[4, 6, 0, 6],         # Margen [arriba, derecha, abajo, izquierda]
-            border_width=[0, 0, 2, 0],   # Borde solo en la parte inferior
-            border_color=["#00000000", "#00000000", colors["Plateado de Corrin"], "#00000000"],
+            margin=[4, 15, 0, 15],         # Margen [arriba, derecha, abajo, izquierda]
+            border_width=[2, 2, 2, 2],   # Borde solo en la parte inferior
+            border_color=[colors["Plateado de Corrin"], colors["Plateado de Corrin"], colors["Plateado de Corrin"], colors["Plateado de Corrin"]],
             rounded=True,                # Bordes redondeados para la barra
         ),
     ),
