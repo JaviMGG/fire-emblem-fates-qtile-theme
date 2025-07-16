@@ -21,7 +21,12 @@ Para poder aplicar este tema, necesitarás:
 
 ¡Mira cómo podría verse tu escritorio!
 
-![Captura de Pantalla del Tema Fire Emblem Fates](screenshots/desktop_fates.png)
+Sin terminales
+![Captura de Pantalla del Tema Fire Emblem Fates](screenshots/wallpaper1.png)
+
+Con terminales
+![Captura de Pantalla del Tema Fire Emblem Fates](screenshots/wallpaper2.png)
+
 
 *(**Nota:** Reemplaza `desktop_fates.png` en la carpeta `screenshots/` con una captura de tu propia configuración una vez aplicada.)*
 
@@ -31,10 +36,9 @@ Sigue estos pasos cuidadosamente para aplicar el tema a tu Qtile. ¡Recuerda que
 
 1.  **Clonar el Repositorio:**
     ```bash
-    git clone [https://github.com/TuUsuarioDeGitHub/qtile-fire-emblem-fates-theme.git](https://github.com/TuUsuarioDeGitHub/qtile-fire-emblem-fates-theme.git)
+    git clone https://github.com/JaviMGG/qtile-fire-emblem-fates-theme.git
     ```
-    *(**Nota:** Cambia `TuUsuarioDeGitHub` por tu nombre de usuario.)*
-
+    
 2.  **Navegar al Directorio del Proyecto:**
     ```bash
     cd qtile-fire-emblem-fates-theme
