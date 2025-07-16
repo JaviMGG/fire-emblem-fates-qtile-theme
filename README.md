@@ -96,5 +96,5 @@ Este proyecto está bajo la Licencia MIT. Consulta el archivo `LICENSE` para má
 
 ## Related
 Algun proyecto relacionado con Qtile
-[Zelda Qtile](https://github.com/JaviMGG/zelda-qtile-theme)
+- [Zelda Qtile](https://github.com/JaviMGG/zelda-qtile-theme)
 
