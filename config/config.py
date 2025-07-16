@@ -162,7 +162,7 @@ screens = [
               
                 widget.Clock(  # Reloj
                     format="%Y-%m-%d %a %I:%M %p",              # Formato de fecha/hora
-                    foreground=colors["Escarlata de Hoshido"],  # Color del texto
+                    foreground=colors["black"],                 # Color del texto
                     background=widget_bg,                       # Fondo del widget
                     padding=5,                                  # Espacio interno
                 ),
