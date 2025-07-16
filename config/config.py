@@ -117,7 +117,7 @@ extension_defaults = widget_defaults.copy()
 
 # Definir colores con opacidad
 bar_bg = "#1A1A1ACC"     # Negro con 80% de opacidad para la barra
-widget_bg = "#2D2D2DDD"  # Gris oscuro con 87% de opacidad para los widgets
+widget_bg = "#214CCE5C"  # Gris oscuro con 87% de opacidad para los widgets
 
 screens = [
     Screen( 
@@ -150,7 +150,7 @@ screens = [
                 ),
                 widget.Chord(                                   # Muestra atajos de teclado personalizados (modos "chord")
                     chords_colors={                             # Colores para modos específicos
-                        "launch": (colors["Índigo de Nohr"], colors["white"]), # Modo de lanzamiento
+                        "launch": (colors["Índigo de Nohr"], colors["transparent"]), # Modo de lanzamiento
                     },
                     name_transform=lambda name: name.upper(),   # Convierte nombres a mayúsculas
                     background=widget_bg,                       # Fondo del widget
