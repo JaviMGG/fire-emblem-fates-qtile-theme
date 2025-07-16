@@ -159,40 +159,7 @@ screens = [
                     background=widget_bg,                       # Fondo del widget
                     padding=5,                                  # Espacio interno
                 ),
-                                ###
-                widget.Net(                                     # Información de red
-                    interface="wlan0",                          # Interfaz de red (ajustar según tu sistema)
-                    format='󰍛 {down} ↓↑ {up}',                   # Formato de visualización
-                    foreground=colors["Índigo de Nohr"],        # Color del texto
-                    background=widget_bg,                       # Fondo del widget
-                ),
-                widget.Memory(                                  # Información de memoria RAM
-                    format='󰍛 {MemUsed: .0f}MB',                # Formato de visualización
-                    measure_mem='M',                            # Medida en MB
-                    foreground=colors["Cyan de Takumi"],        # Color del texto
-                    background=widget_bg,                       # Fondo del widget
-                ),
-                widget.CPU(                                     # Información de CPU
-                    format='󰍛 {load_percent}%',                 # Formato de visualización
-                    foreground=colors["Índigo de Nohr"],        # Color del texto
-                    background=widget_bg,                       # Fondo del widget
-                ),
-                widget.Battery(                                 # Información de batería
-                    format='󰂃 {percent:2.0%} {char}',           # Formato de visualización
-                    foreground=colors["Escarlata de Hoshido"],  # Color del texto
-                    background=widget_bg,                       # Fondo del widget
-                    charge_char='⚡',                            # Carácter para carga
-                    discharge_char='🔋',                         # Carácter para descarga
-                ),
-                widget.Volume(                                  # Control de volumen
-                    format='󰕾 {volume}%',                        # Formato de visualización
-                    foreground=colors["Azur de Azura"],         # Color del texto
-                    background=widget_bg,                       # Fondo del widget
-                    step=5,                                     # Incremento/decremento de volumen
-                ),
-
-                ####
-                
+              
                 widget.Clock(  # Reloj
                     format="%Y-%m-%d %a %I:%M %p",              # Formato de fecha/hora
                     foreground=colors["Escarlata de Hoshido"],  # Color del texto
