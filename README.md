@@ -100,5 +100,6 @@ Este proyecto está bajo la Licencia MIT. Consulta el archivo `LICENSE` para má
 
 ## Relacionado
 Algun proyecto relacionado con Qtile
-- ⚔️ [Zelda Qtile](https://github.com/JaviMGG/zelda-qtile-theme)
+- [Zelda Qtile](https://github.com/JaviMGG/zelda-qtile-theme)
+- [Instalar Arch Linux en VirtualBox](https://github.com/JaviMGG/Guia-Instalar-Arch-Linux-VirtualBox-)
 
