@@ -1,5 +1,5 @@
-# Configuración de Qtile con temática de Fire Emblem
-# Una configuración de Qtile con tema de Fire Emblem Fates
+# Configuración de Qtile con temática de Fire Emblem Fates
+# Una configuración de Qtile con tema de Fire Emblem Fates, inspirada en los colores y elementos del juego.
 
 import os
 import subprocess
@@ -129,22 +129,22 @@ screens = [
                     padding=5,
                 ),
                 widget.GroupBox(
-                    active=colors["Cyan de Takumi"],
-                    inactive=colors["Escarlata de Hoshido"],
+                    active=colors["triforce_gold"],
+                    inactive=colors["zelda_blue"],
                     highlight_method="line",
-                    highlight_color=[colors["Indigo de Nohr"], colors["black"]],
-                    this_current_screen_border=colors["Cyan de Takumi"],
+                    highlight_color=[colors["hyrule_green"], colors["link_tunic"]],
+                    this_current_screen_border=colors["triforce_gold"],
                     background=widget_bg,  # Fondo más opaco para los widgets
                     padding=3,
                     borderwidth=2,
                     rounded=True,          # Bordes redondeados para GroupBox
                 ),
                 widget.Prompt(                                  # Área para ingresar comandos
-                    foreground=colors["Azur de Azura"],         # Color del texto
+                    foreground=colors["triforce_gold"],         # Color del texto
                     background=widget_bg,                       # Fondo del widget
                 ),
                 widget.WindowName(                              # Nombre de la ventana actual
-                    foreground=colors["Azur de Azura"],         # Color del texto
+                    foreground=colors["triforce_gold"],         # Color del texto
                     background=bar_bg,                          # Fondo de la barra (no del widget)
                 ),
                 widget.Chord(                                   # Muestra atajos de teclado personalizados (modos "chord")
