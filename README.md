@@ -36,7 +36,7 @@ Sigue estos pasos cuidadosamente para aplicar el tema a tu Qtile. ¡Recuerda que
 
 1.  **Clonar el Repositorio:**
     ```bash
-    git clone https://github.com/JaviMGG/qtile-fire-emblem-fates-theme.git
+    git clone https://github.com/JaviMGG/fire-emblem-fates-qtile-theme.git
     ```
     
 2.  **Navegar al Directorio del Proyecto:**
