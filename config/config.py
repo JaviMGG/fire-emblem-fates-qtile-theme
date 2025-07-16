@@ -129,22 +129,22 @@ screens = [
                     padding=5,
                 ),
                 widget.GroupBox(
-                    active=colors["triforce_gold"],
-                    inactive=colors["zelda_blue"],
+                    active=colors["Escarlata de Hoshido"],
+                    inactive=colors["Dragon azul"],
                     highlight_method="line",
-                    highlight_color=[colors["hyrule_green"], colors["link_tunic"]],
-                    this_current_screen_border=colors["triforce_gold"],
+                    highlight_color=[colors["Índigo de Nohr"], colors["Azur de Azura"]],
+                    this_current_screen_border=colors["Cyan de Takumi"],
                     background=widget_bg,  # Fondo más opaco para los widgets
                     padding=3,
                     borderwidth=2,
                     rounded=True,          # Bordes redondeados para GroupBox
                 ),
                 widget.Prompt(                                  # Área para ingresar comandos
-                    foreground=colors["triforce_gold"],         # Color del texto
+                    foreground=colors["Escarlata de Hoshido"],   # Color del texto
                     background=widget_bg,                       # Fondo del widget
                 ),
                 widget.WindowName(                              # Nombre de la ventana actual
-                    foreground=colors["triforce_gold"],         # Color del texto
+                    foreground=colors["Plateado de Corrin"],     # Color del texto
                     background=bar_bg,                          # Fondo de la barra (no del widget)
                 ),
                 widget.Chord(                                   # Muestra atajos de teclado personalizados (modos "chord")
