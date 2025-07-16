@@ -93,8 +93,8 @@ for i in groups:
 layout_theme = {
     "border_width": 2,                              # Ancho del borde de las ventanas
     "margin": 6,                                    # Margen entre las ventanas
-    "border_focus": colors["Plateado de Corrin"],          # Azul del Dragón para el borde enfocado
-    "border_normal": colors["Dragon azul"],  # Plateado de Corrin para el borde normal
+    "border_focus": colors["Plateado de Corrin"],   # Plateado de Corrin para el borde enfocado
+    "border_normal": colors["Dragon azul"],         # Dragon azul para el borde normal
     "border_radius": 16,                            # Bordes redondeados como se pidió
 }
 
@@ -140,7 +140,7 @@ screens = [
                     rounded=True,          # Bordes redondeados para GroupBox
                 ),
                 widget.Prompt(                                  # Área para ingresar comandos
-                    foreground=colors["Escarlata de Hoshido"],   # Color del texto
+                    foreground=colors["Escarlata de Hoshido"],  # Color del texto
                     background=widget_bg,                       # Fondo del widget
 
                 ),
@@ -167,19 +167,19 @@ screens = [
                     padding=5,                                  # Espacio interno
                 ),
                 widget.QuickExit(                               # Botón para salir de Qtile
-                    foreground=colors["Azur de Azura"],         # Color del texto
+                    foreground="#D45C00",                       # Color del texto
                     default_text="[Salir]",                     # Texto del botón
                     background=widget_bg,                       # Fondo del widget
                     padding=5,                                  # Espacio interno
                 ),
             ],
-            25,                          # Altura de la barra
-            opacity=1,                # Barra más opaca
-            background=bar_bg,           # Fondo con opacidad para la barra
+            25,                            # Altura de la barra
+            opacity=1,                     # Barra más opaca
+            background=bar_bg,             # Fondo con opacidad para la barra
             margin=[4, 15, 0, 15],         # Margen [arriba, derecha, abajo, izquierda]
-            border_width=[2, 2, 2, 2],   # Borde solo en la parte inferior
+            border_width=[2, 2, 2, 2],     # Borde solo en la parte inferior
             border_color=[colors["Plateado de Corrin"], colors["Plateado de Corrin"], colors["Plateado de Corrin"], colors["Plateado de Corrin"]],
-            rounded=True,                # Bordes redondeados para la barra
+            rounded=True,                  # Bordes redondeados para la barra
         ),
     ),
 ]
