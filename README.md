@@ -93,3 +93,8 @@ Este tema es un punto de partida. Te animo a:
 ## 📄 Licencia
 
 Este proyecto está bajo la Licencia MIT. Consulta el archivo `LICENSE` para más detalles.
+
+## Related
+Algun proyecto relacionado con Qtile
+[Zelda Qtile](https://github.com/JaviMGG/zelda-qtile-theme)
+
