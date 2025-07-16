@@ -1,11 +1,11 @@
 #!/bin/bash
 
-# Autostart script for Zelda Qtile Theme
+# Autostart script for Fire Emblem Fates Qtile Theme
 # This script runs when Qtile starts
 
 # Function to log messages
 log_message() {
-    echo "[Zelda Qtile Theme] $1"
+    echo "[Fire Emblem Fates Qtile Theme] $1"
 }
 
 # Check if wallpaper file exists
