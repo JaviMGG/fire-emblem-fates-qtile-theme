@@ -74,7 +74,7 @@ if [ ! -f "./fates_wallpaper.jpg" ]; then
 fi
 
 mostrar_mensaje "amarillo" "Copiando fondo de pantalla Fire Emblem..."
-if cp ./fates_wallpaper.jpg "$DIR_QTILE/wallpaper.jpg"; then
+if cp ./fates_wallpaper.jpg "$DIR_QTILE/fates_wallpaper.jpg"; then
     mostrar_mensaje "verde" "✓ Fondo de pantalla copiado correctamente"
 else
     mostrar_mensaje "rojo" "✗ Error al copiar el fondo de pantalla"
