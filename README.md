@@ -22,10 +22,10 @@ Para poder aplicar este tema, necesitarás:
 ¡Mira cómo podría verse tu escritorio!
 
 Sin terminales
-![Captura de Pantalla del Tema Fire Emblem Fates](screenshots/wallpaper1.png)
+![Captura de Pantalla del Tema Fire Emblem Fates](screenshots/fondo1.png)
 
 Con terminales
-![Captura de Pantalla del Tema Fire Emblem Fates](screenshots/wallpaper2.png)
+![Captura de Pantalla del Tema Fire Emblem Fates](screenshots/fondo2.png)
 
 
 *(**Nota:** Reemplaza `desktop_fates.png` en la carpeta `screenshots/` con una captura de tu propia configuración una vez aplicada.)*
